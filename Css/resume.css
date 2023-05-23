@@ -1,0 +1,121 @@
+body {
+    background-color: gray;
+    scroll-behavior: smooth;
+}
+h2{
+    text-align: center;
+    color: #f9004d;
+    border: 2px solid black;
+    box-shadow: 2px 2px 4px black;
+    
+}
+h3{
+    text-align: center;
+    color: black;
+    font-size: medium;
+}
+
+
+.resume_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.japanese_resume {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.japanese_resume img {
+    width: 70%;
+
+}
+
+.download>a {
+    height: 1rem;
+    width: .5rem;
+    text-decoration: none;
+    background-color: #f9004d;
+    text-align: center;
+    color: black;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px black ;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.download {
+
+    height: .7rem;
+    width: .5rem;
+    padding: 4rem;
+    width: 100%;
+    text-align: center;
+    
+    box-sizing: border-box;
+}
+
+
+.pic {
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: center;
+    background-color: black;
+    gap: 3rem;
+    width: 50%;
+
+}
+
+
+.pic>div>img {
+    width: 100%;
+    opacity: .5;
+   
+}
+
+.pic>div>img:hover{
+    opacity: 1.0;
+}
+
+.myproject-body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.pic>a {
+    background-color: #f9004d;
+    text-decoration: none;
+    border: 2px;
+    padding: 5px 15px;
+    font-size: large;
+    color: black;
+
+}
+
+/* .eng_img_resume {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+} */
+
+.img-reszie {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.img-reszie > img {
+    width: 75%;
+}
