@@ -4,6 +4,10 @@
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
 }
+html,body{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
 
 .nav-bar {
     height: 100vh;
@@ -205,7 +209,7 @@ h5{
     line-height: 25px;
     margin-bottom: 23px;
 }
-.box1 .button{
+.box1 .button-two{
     background-color: #f9004d;
     color: white;
     text-decoration: none;
@@ -287,11 +291,18 @@ footer p:nth-child(2){
     align-items: center;
     display: flex;
     justify-content: center;
-    background: #f9004d;
+    border: 2;
+    border: 2px solid #f9004d;
     border-radius: 50%;
     margin: 15px 20px;
     color: white;
     text-decoration: none;
+    background-color:#f9004d;
+}
+.footer>a:hover{
+    background-color: black;
+    color: white;
+
 }
 .finish{
     font-size: 16px;
@@ -308,11 +319,16 @@ i{
 .myproject>a{
     text-decoration: none;
     background-color: #f9004d;
+    border: 2px solid #f9004d;
     height: 1rem;
     width: 1rem;
     padding: 1rem;
     border-radius: 7px;
 
+}
+.myproject>a:hover{
+    background-color:black;
+    color: white;
 }
 .myproject{
     margin-top: 1rem;
