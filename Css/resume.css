@@ -1,107 +1,118 @@
-body {
-    background-color: gray;
-    scroll-behavior: smooth;
-}
-h2{
-    text-align: center;
-    color: #f9004d;
-    border: 2px solid black;
-    box-shadow: 2px 2px 4px black;
-    
-}
-h3{
-    text-align: center;
-    color: black;
-    font-size: medium;
+html::-webkit-scrollbar {
+  display: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: gray;
+}
+h2 {
+  text-align: center;
+  color: #f9004d;
+  border: 2px solid black;
+  box-shadow: 2px 2px 4px black;
+}
+h3 {
+  text-align: center;
+  color: black;
+  font-size: medium;
+  scroll-behavior: smooth;
+}
+h3 > a {
+  text-decoration: none;
+  padding: 1rem;
+}
+h3 > a > .bi {
+  font-size: 1.5rem;
+  color: white;
+  border: 2px solid rgba(0, 0, 0 ,.5);
+  box-shadow: 3px 3px 3px black;
+  border-radius: 50%;
+  background-color: black;
+}
+h3 > a > .bi:hover {
+  background-color: #fff;
+  color: black;
+}
 
 .resume_main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 
 .japanese_resume {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .japanese_resume img {
-    width: 70%;
-
+  width: 70%;
 }
 
-.download>a {
-    height: 1rem;
-    width: .5rem;
-    text-decoration: none;
-    background-color: #f9004d;
-    text-align: center;
-    color: black;
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 3px 3px 4px black ;
-    left: 50%;
-    transform: translate(-50%);
-
+.download > a {
+  height: 1rem;
+  width: 0.5rem;
+  text-decoration: none;
+  background-color: #f9004d;
+  text-align: center;
+  color: black;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 3px 3px 4px black;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .download {
+  height: 0.7rem;
+  width: 0.5rem;
+  padding: 4rem;
+  width: 100%;
+  text-align: center;
 
-    height: .7rem;
-    width: .5rem;
-    padding: 4rem;
-    width: 100%;
-    text-align: center;
-    
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 
 .pic {
-    display: flex;
-    flex-direction: row;
-    width: 20px;
-    flex-wrap: wrap;
-    padding: 1rem;
-    justify-content: center;
-    background-color: black;
-    gap: 3rem;
-    width: 50%;
-
+  display: flex;
+  flex-direction: row;
+  width: 20px;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: center;
+  background-color: black;
+  gap: 3rem;
+  width: 50%;
 }
 
-
-.pic>div>img {
-    width: 100%;
-    opacity: .5;
-   
+.pic > div > img {
+  width: 100%;
+  opacity: 0.5;
 }
 
-.pic>div>img:hover{
-    opacity: 1.0;
+.pic > div > img:hover {
+  opacity: 1;
 }
 
 .myproject-body {
-    background-color: black;
-    display: flex;
-    justify-content: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
 }
 
-.pic>a {
-    background-color: #f9004d;
-    text-decoration: none;
-    border: 2px;
-    padding: 5px 15px;
-    font-size: large;
-    color: black;
-
+.pic > a {
+  background-color: #f9004d;
+  text-decoration: none;
+  border: 2px;
+  padding: 5px 15px;
+  font-size: large;
+  color: black;
 }
 
 /* .eng_img_resume {
@@ -111,11 +122,11 @@ h3{
 } */
 
 .img-reszie {
-    width: 100%;
-    text-align: center;
-    overflow: hidden;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
 }
 
 .img-reszie > img {
-    width: 75%;
+  width: 75%;
 }
