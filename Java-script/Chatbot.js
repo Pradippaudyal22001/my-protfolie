@@ -3,6 +3,7 @@ function start(){
     res_msg.innerHTML ="hello myself Pradip ,how can i help you ?";
     res_msg.setAttribute("class" ,"left");
     document.getElementById('msg_area').appendChild(res_msg);
+     
 
 }
 document.getElementById('send').addEventListener("click",async(e)=>
